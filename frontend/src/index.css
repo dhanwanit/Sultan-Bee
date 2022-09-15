@@ -1,0 +1,1025 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #f8f2f2;
+}
+
+/* hotel Details start */
+.maincontainer {
+  /* #a4a7ab29  #a4a7ab17*/
+  background-color: #a4a7ab29;
+  min-height: 650px;
+  padding-bottom: 70px;
+}
+
+h6.distance {
+  font-size: 12px;
+  color: grey;
+}
+
+.subname {
+  font-size: 14px;
+  font-weight: 400;
+  color: #4e4c4c;
+  width: 180px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.bottom span {
+  font-size: 10px;
+  color: grey;
+}
+.bottom .ratings {
+  margin-top: -12px;
+}
+
+.hotelitemContent .bottom .rating .MuiSvgIcon-root {
+  font-size: 14px;
+  color: orange;
+  margin-top: 0px;
+}
+
+.hotelitemCard {
+  background-color: white;
+  border-radius: 20px;
+  height: 100px;
+}
+
+.hotelitemCard h3 {
+  font-size: 14px;
+}
+
+.hotelitemCard .imgBox img {
+  border-radius: 15px;
+}
+
+/* hotel Details end */
+
+/* banner start */
+.banner {
+  border-radius: 0px 0px 30px 30px;
+}
+.main_banner {
+  background-color: #f8901c;
+  border-radius: 0px 0px 20px 20px;
+  padding-top: 1rem;
+}
+
+.item {
+  font-size: 10px;
+  height: 29px;
+  background: #fff;
+  border-radius: 9px;
+  color: grey;
+}
+.item:hover {
+  color: #f8901c;
+}
+
+.kdCslO {
+  display: none !important;
+}
+.eWjCzc {
+  font-size: 10px !important;
+  background-color: transparent !important;
+  color: #faf9fb !important;
+  box-shadow: none !important;
+  width: 20px !important;
+  min-width: 15px !important;
+  font-weight: 700;
+}
+
+.eAyARa {
+  font-size: 10px !important;
+  color: #faf9fb !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+  width: 20px !important;
+  min-width: 15px !important;
+  font-weight: 700;
+}
+.today {
+  font-size: 14px;
+}
+
+.menuCard {
+  width: 65px;
+  border-radius: 11px;
+  color: #fff;
+  background-color: #f8901c;
+}
+
+.menuCard h6 {
+  margin: 22px 0px;
+  display: grid;
+  place-items: center;
+  font-size: 12px;
+}
+
+.imgMenu img {
+  border-radius: 15px;
+  height: 59px;
+  width: 100%;
+}
+
+/* banner end */
+
+/* timer */
+
+/* item views start */
+.itemContent {
+  border-radius: 15px;
+}
+
+.itemContent .bottom .rating .MuiSvgIcon-root {
+  font-size: 14px;
+}
+
+.itemContent .bottom .rating .MuiSvgIcon-root {
+  font-size: 14px;
+  color: #f8901c;
+  margin-top: 0px;
+}
+
+.itemrate {
+  margin: -24px 0px 0px 104px;
+}
+
+.itemContent .bottom .price {
+  font-size: 13px;
+}
+
+.itemContent .bottom .price sp .text-white.position-absolute {
+  right: 33px;
+  bottom: 88px;
+}
+an {
+  color: #f8901c;
+  font-size: 12px;
+}
+
+p.discription {
+  font-size: 10px;
+  color: grey;
+  width: 180px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.itemContent .addToCart {
+  width: 55px;
+  height: 25px;
+  cursor: pointer;
+  border: 2px solid #f8901c;
+  border-radius: 8px;
+  color: #f8901c;
+  font-size: 11px;
+  font-family: system-ui;
+}
+
+.addToCart
+  svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+  color: orange;
+  margin-top: 0px;
+  padding: -11px;
+  margin-left: 6px;
+  font-weight: bolder;
+  font-size: 17px;
+}
+
+.itemContent .addToCart .MuiSvgIcon-root {
+  color: #faf9fb;
+  font-size: 16px;
+}
+
+.orange {
+  color: #f8901c !important;
+}
+
+.gray {
+  color: #373848 !important;
+}
+
+.dishItemContainer {
+  row-gap: 10px;
+  column-gap: 91px;
+}
+
+/* items view end */
+
+/* home page css */
+
+/* slider */
+
+body {
+  background-color: #333;
+}
+
+/* hotel food */
+
+.hotelitemCard .imgBox img,
+.addSomeItem img {
+  width: 81px;
+  height: 81px;
+}
+
+.itemCard .imgBox img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+/*  */
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translatex(-1000%);
+  }
+}
+
+/* left  menu */
+.leftMenu {
+  background: #f9fafb;
+  border-radius: 19px 19px 0px 0px;
+  z-index: 101;
+  box-shadow: 0px 6px 10px 6px grey;
+}
+
+.leftMenu ul {
+  margin-top: -20px;
+}
+.leftMenu ul li {
+  position: relative;
+  list-style: none;
+  height: 60px;
+  z-index: 1;
+}
+
+.leftMenu ul li a {
+  position: relative;
+  /* text-decoration: none; */
+}
+.leftMenu ul li a .icon {
+  line-height: 70px;
+  transition: 0.5s;
+}
+
+.leftMenu ul li a .icon .MuiSvgIcon-root {
+  font-size: 26px;
+  color: #87878787;
+}
+
+.leftMenu ul li.active a .icon .MuiSvgIcon-root,
+.leftMenu ul li.active a .text {
+  color: #f8901c;
+  transition: 0.5s;
+}
+
+.leftmenucompo h6 {
+  font-size: 10px;
+  margin-top: -13px;
+  color: #87878787;
+}
+
+/* end left menu */
+
+/* row container */
+.rowContainer {
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.rowContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.rowMenuCard {
+  min-width: 80px;
+  height: 60px;
+  border-radius: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+  background-color: white;
+}
+
+.rowMenuCard:hover,
+.rowMenuCard.active {
+  background: #f8901c;
+}
+
+.rowMenuCard .imgBox {
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  min-height: 40px;
+  transition: 0.5s;
+}
+
+.rowMenuCard:hover .imgBox,
+.rowMenuCard.active .imgBox {
+  background: #faf9fb;
+}
+
+.rowMenuCard .imgBox img {
+  object-fit: contain;
+  width: 100%;
+  height: 60%;
+}
+
+.rowMenuCard:hover .imgBox img,
+.rowMenuCard.active .imgBox img {
+  width: 80%;
+  height: 50%;
+  transition: 0.5s;
+}
+
+.rowMenuCard h3 {
+  font-size: 11px;
+  font-weight: 500;
+  color: #f8901c;
+  transition: 0.5s;
+}
+
+.rowMenuCard:hover h3,
+.rowMenuCard.active h3 {
+  color: #faf9fb;
+}
+
+/*--------------------- vegMenuContainer start -------------------*/
+.vegContainer {
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.vegContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.rowVegCard {
+  /* width: 80px; */
+  min-width: 80px;
+  height: 60px;
+  border-radius: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+  background-color: white;
+}
+
+.rowVegCard:hover,
+.rowVegCard.active {
+  background: #f8901c;
+}
+
+.rowVegCard .vegimgBox {
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  min-height: 40px;
+  transition: 0.5s;
+}
+
+.rowVegCard:hover .vegimgBox,
+.rowVegCard.active .vegimgBox {
+  background: #faf9fb;
+}
+
+.rowVegCard .vegimgBox img {
+  object-fit: contain;
+  width: 100%;
+  height: 60%;
+}
+
+.rowVegCard:hover .vegimgBox img,
+.rowVegCard.active .vegimgBox img {
+  width: 80%;
+  height: 50%;
+  transition: 0.5s;
+}
+
+.rowVegCard h3 {
+  font-size: 11px;
+  font-weight: 500;
+  color: #f8901c;
+  transition: 0.5s;
+}
+
+.rowVegCard:hover h3,
+.rowVegCard.active h3 {
+  color: #faf9fb;
+}
+
+.rightVegMenuContainer {
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.rightVegMenuContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.rowVegMenuCard {
+  /* width: 80px; */
+  min-width: 80px;
+  height: 36px;
+  border-radius: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+  background-color: white;
+}
+
+.rowVegMenuCard h3 {
+  font-size: 11px;
+  font-weight: 500;
+  color: #464444;
+  transition: 0.5s;
+  margin-top: 10px;
+}
+
+.vegitableleft .imgBox img {
+  width: 120px;
+  height: 81px;
+}
+.vegitableCheckOut {
+  outline: none;
+  padding: 11px 20px;
+  background: #f8901c;
+  border-radius: 3vw;
+  letter-spacing: 2px;
+  bottom: 36px;
+}
+
+.vegitableleft h6 {
+  font-size: 12px;
+}
+
+button.vegitableCheckOut.text-center {
+  font-size: 14px;
+}
+/* -----------------------vegMenuContainer end -------------------- */
+
+/* All menu part */
+a.linkclass {
+  color: black;
+  text-decoration: none;
+}
+
+.maincontainer .subcarousel {
+  padding-top: 40px;
+}
+.itemCardDiv {
+  width: 40%;
+  margin-bottom: 10px;
+}
+.itemCard {
+  border: 9px solid #fff;
+  width: 90%;
+}
+
+/* cart Section start */
+.cartContainer {
+  width: 100%;
+  flex: 1;
+  min-width: 320px;
+  padding: 0px 10px;
+  margin-top: 10px;
+}
+
+.itemSection {
+  border: 2px solid orange;
+  border-radius: 10px;
+  width: 60px;
+  height: 26px;
+}
+
+h6.bg-orange {
+  background-color: orange;
+  font-size: 12px;
+}
+.itemSection .itemAdd {
+  margin-top: -7px;
+  margin-left: -15px;
+
+  color: orange;
+}
+.itemSection .itemRemove {
+  color: orange;
+}
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.mx-1.star.mt-0.css-i4bv87-MuiSvgIcon-root {
+  color: orange;
+  width: 14px;
+}
+
+.rightMenu {
+  width: 375px;
+  height: calc(100% - 60px);
+  background: #f5f3f3;
+  border-radius: 25px 25px 0px 0px;
+  top: 90px;
+  z-index: 105;
+  padding: 20px 10px;
+  transform: translateY(200%);
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  /* box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1); */
+}
+
+.rightMenu.active {
+  transform: translateY(0%);
+}
+
+.rightSumMenu {
+  width: 375px;
+  height: calc(100% - 60px);
+  background: #f8f9fa;
+  border-radius: 25px 25px 0px 0px;
+  top: 134px;
+  z-index: 105;
+  padding: 20px 10px;
+  /* box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1); */
+}
+
+.rightVegMenuContainer {
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.main {
+  padding-bottom: 57px;
+}
+
+.checkOut {
+  outline: none;
+  padding: 9px 20px;
+  background: #f8901c;
+  border-radius: 3vw;
+  letter-spacing: 2px;
+}
+
+.ladeheader,
+.history {
+  background: #f8901c;
+  padding: 11px 20px;
+  border-radius: 0px 0px 18px 18px;
+  color: #faf9fb;
+  width: 100%;
+}
+
+/* cart Section end */
+
+/* hotel food section start */
+
+.hotelpara p {
+  font-size: 12px;
+}
+
+.hotelLogo img {
+  width: 100%;
+  height: calc(100vw / (545 / 133));
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+  color: #fff;
+  margin-top: 12px;
+  padding: 1px;
+  height: 1.1em;
+
+  font-size: 1.5rem;
+}
+
+.hotelarrow
+  svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+  font-size: 30px;
+}
+
+.rightaerrow
+  svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+  margin-top: 2px;
+  font-size: 16px;
+}
+
+span.text-orange.pb-4.mb-3.ms-5.ps-1 {
+  font-size: 12px;
+}
+
+/*     scan start     */
+.scanMain {
+  background-color: #4d4d4d;
+}
+
+.scanimage img {
+  height: 50vh;
+}
+
+/*     scan end       */
+
+/* hotel food section end */
+
+.modal {
+  position: inherit !important;
+}
+
+.modal-main {
+  background: rgb(243 142 10);
+  border-radius: 10px;
+  top: 85%;
+  z-index: 1;
+}
+
+.display-none {
+  display: none;
+}
+.App {
+  margin-left: 19px;
+}
+
+.cancel {
+  top: -13px;
+  right: 0;
+  font-size: 20px;
+}
+
+/* dummy css */
+/* .BackImage {
+  background-image: url(/home/ntf-310/Desktop/sultan-bee/src/images/la-de-kitchen.png);
+  width: 100%;
+  height: calc(100vw / (550 / 133));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.curv {
+  position: absolute;
+  bottom: 11px;
+  width: 127px;
+ 
+  left: 153px;
+  height: 127px;
+  border-radius: 50%;
+  background-image: url(/home/ntf-310/Desktop/sultan-bee/src/images/ladde-kitchen-logo.png);
+  background-size: 100% 100%;
+}
+.suvcurve {
+  line-height: 50px;
+  position: absolute;
+  width: 100%;
+  height: 78px;
+ background-image: radial-gradient(
+    circle 76px at 215px 0,
+    transparent 700px,
+    #fff 50px
+  ); 
+  background-image: url(/home/ntf-310/Desktop/sultan-bee/src/images/uighhhg.png);
+
+  bottom: -1px;
+}
+
+.text-white.hotelName {
+  position: absolute;
+  bottom: 62px;
+  margin-left: 310px;
+}
+
+svg.rightaerrow {
+  margin: 0;
+} */
+
+.BackImage {
+  background-image: url(/src/images/la-de-kitchen.png);
+  width: 100%;
+  height: calc(100vw / (340 / 133));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.curvText {
+  margin-left: 197px;
+  margin-bottom: -138px;
+}
+
+.curv {
+  margin-right: 60px;
+  margin-top: -82px;
+  max-width: 32%;
+  width: 100%;
+  position: relative;
+  bottom: 25px;
+  left: -28px;
+}
+
+.curv img {
+  position: relative;
+  top: 22px;
+  margin-top: 3px;
+  padding-top: 6px;
+}
+
+.suvcurve {
+  height: 194px;
+  overflow: hidden;
+}
+.suvcurve::before {
+  content: "";
+  display: block;
+  height: 76%;
+  width: 18%;
+  position: absolute;
+  left: calc(98% + 15px);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-color: #fff;
+}
+svg.rightaerrow {
+  margin: 0;
+}
+
+/* user Profile */
+.profile {
+  display: inline-block;
+  width: 100%;
+  color: white;
+  margin-top: 94px;
+  padding: 82px 0px 41px;
+  background: radial-gradient(circle at top, white 35px, #0091c9 15px);
+  border-radius: 10px 10px 0 0;
+}
+.profileIcon {
+  background: #f8901c;
+  height: 55px;
+}
+.userDetails {
+  margin-top: 30px;
+}
+.userBio {
+  line-height: 35px;
+  color: #2125299c;
+}
+.profileHeader {
+  overflow: hidden;
+}
+.userName {
+  font-weight: 700;
+  color: #000;
+  font-size: 32px;
+}
+.emailIcon,
+.phoneIcon {
+  color: #878787;
+  margin-top: 0px;
+  margin-right: 10px;
+}
+.allergyIcon {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+.userButton {
+  margin-top: 40px;
+}
+.orderButton {
+  padding: 10px 20px;
+  background: #0a58ca;
+  border: 1px solid #0a58ca;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 18px;
+  margin-bottom: 25px;
+  font-weight: 700;
+  /* text-transform: uppercase; */
+}
+.updateButton {
+  padding: 10px 30px;
+  background: #1b8755;
+  border: 1px solid #1b8755;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  /* text-transform: uppercase; */
+}
+.circle {
+  height: 140px;
+  width: 140px;
+  margin-left: 122px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #f8901c;
+}
+
+/* more menu section */
+.moreMenu {
+  width: 150px;
+  height: 100;
+  margin: 0px 10px;
+  background: #f5f3f3;
+  border-radius: 25px 25px 0px 0px;
+  bottom: 80px;
+  z-index: 105;
+  padding: 20px 10px;
+  transform: translateY(200%);
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.moreMenu_option a {
+  text-decoration: none;
+  color: #f8901c;
+}
+.moreMenu.active {
+  transform: translateY(0%);
+}
+
+@media screen and (min-width: 650px) {
+  .rowContainer {
+    justify-content: space-between;
+  }
+
+  .inputBox {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  .toggleMenu {
+    display: none;
+  }
+  .profileContainer .userName {
+    display: block;
+  }
+  .leftMenu {
+    left: 21%;
+    width: 40%;
+  }
+  .deliveryPic {
+    bottom: -13px;
+    width: 278px;
+  }
+  .bannerContent h3 {
+    font-size: 24px;
+  }
+  .bannerContent p {
+    font-size: 15px;
+    margin: 12px 0;
+    width: unset;
+  }
+  .bannerContent a {
+    font-size: 16px;
+  }
+  main {
+    display: flex;
+  }
+  .mainContainer {
+    padding: 10px 30px;
+  }
+  .today {
+    font-size: 22px;
+  }
+  .item {
+    font-size: 16px;
+    height: 37px;
+  }
+  .menuCard {
+    width: 135px;
+    height: 75px;
+  }
+  .menuCard h6 {
+    margin: 27px 0px;
+    font-size: 16px;
+  }
+  .imgMenu img {
+    height: 75px;
+    width: 125px;
+  }
+  .rowMenuCard {
+    min-width: 106px;
+    height: 70px;
+  }
+  .rowMenuCard .imgBox img {
+    height: 80%;
+  }
+  .rowMenuCard h3 {
+    font-size: 15px;
+  }
+  .hotelitemCard h3 {
+    font-size: 15px;
+  }
+  h6.distance {
+    font-size: 14px;
+  }
+  .hotelitemContent .bottom .rating .MuiSvgIcon-root {
+    font-size: 16px;
+  }
+  .bottom span {
+    font-size: 11px;
+  }
+  .subname {
+    font-size: 15px;
+  }
+  .hotelitemCard {
+    height: 120px;
+  }
+  .leftMenu ul li a .icon .MuiSvgIcon-root {
+    font-size: 30px;
+  }
+  .leftmenucompo h6 {
+    font-size: 14px;
+  }
+  .rowVegMenuCard h3 {
+    font-size: 15px;
+  }
+  .hotelName h5 {
+    font-size: 25px;
+  }
+  .hotelpara p {
+    font-size: 15px;
+  }
+  .itemContent .itemName {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  p.discription {
+    font-size: 11px;
+  }
+  .profileIcon {
+    height: 65px;
+  }
+  .hotelarrow p {
+    margin-top: 11px;
+    font-size: 22px;
+  }
+  .circle {
+    margin-left: 45% !important;
+  }
+  .userName {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* hotel item card */
+
+  .hotelitemCard {
+    width: 100%;
+  }
+
+  .itemCard {
+    width: 100%;
+  }
+
+  .text-white.position-absolute.text-center {
+    bottom: -87px;
+    right: 13px;
+  }
+
+  .hotelLogo img {
+    height: calc(100vw / (166 / 133));
+  }
+  .curvText {
+    margin-left: 59px;
+    margin-bottom: -17px;
+  }
+
+  .rightMenu {
+    width: 100%;
+  }
+  .rightSumMenu {
+    width: 100%;
+  }
+  .text-white.hotelName {
+    position: absolute;
+    margin-left: 121px;
+    margin-top: -34px;
+    font-size: 13px;
+  }
+  .suvcurve {
+    height: 72px;
+    overflow: hidden;
+  }
+  .BackImage {
+    height: calc(100vw / (164 / 133));
+  }
+
+  .curv {
+    margin-right: 106px;
+    margin-top: -65px;
+    max-width: 32%;
+    width: 100%;
+    position: relative;
+    bottom: 3px;
+    left: -4px;
+  }
+  .itemCardDiv {
+    width: auto;
+  }
+  .hotelName h5 {
+    font-size: 1.25rem;
+  }
+  .itemContent .itemName {
+    font-size: 12px;
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,39 @@
+.productManagement {
+  flex: 4;
+}
+.productManagementTitle {
+  font-weight: 600;
+}
+.productManagementForm {
+  padding: 30px 20px;
+  margin: 30px 25%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px -8px rgb(0, 0, 0);
+  -webkit-box-shadow: 0px 0px 15px -8px rgb(0, 0, 0);
+}
+.productManagementItem{
+    width: 400px;
+    margin-bottom: 10px;
+}
+.productManagementItem>label{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: rgb(151, 150, 150);
+}
+.productManagementItem>select{
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.productManagementButton{
+    margin: 25px 0px;
+    width: 200px;
+    border: none;
+    background-color: darkblue;
+    color: #fff;
+    padding: 7px 15px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+

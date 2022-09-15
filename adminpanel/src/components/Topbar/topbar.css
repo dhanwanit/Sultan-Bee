@@ -1,0 +1,76 @@
+.topbar {
+  height: 50px;
+  background-color: #ffffff;
+  z-index: 999;
+  box-shadow: 0px 0px 15px -8px rgb(0, 0, 0);
+  -webkit-box-shadow: 0px 0px 15px -8px rgb(0, 0, 0);
+}
+
+/* .topbarWrapper{
+    
+} */
+
+.logo {
+  font-weight: bold;
+  font-size: 30px;
+  color: #00008b;
+  cursor: pointer;
+}
+.topbarIconContainer{
+    cursor: pointer;
+    color: #555;
+}
+.topIconBadge{
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    font-size: 12px;
+}
+.topAvatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.nav-ul {
+  padding: 5px;
+  margin: 0px;
+  background-color: #00148b;
+  border-radius: 10px;
+}
+.nav-ul li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+.nav-ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+.nav-right {
+  text-align: right;
+}
+.dropdown-toggle::after{
+  display: none;
+}
+.nav-link {
+  padding: 0;
+}
+.dropdown-menu {
+ padding: 10px 20px;
+  background-color: #018080;
+}
+.dropdown-item {
+  color: #fff;
+  font-weight: 600;
+}
+a.dropdown-item:hover{
+  color: #018080;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.dropdown-item.active, .dropdown-item:active{
+  background-color: #1fc4c4 ;
+  border-radius: 5px;
+}

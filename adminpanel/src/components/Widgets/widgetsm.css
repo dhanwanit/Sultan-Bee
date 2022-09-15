@@ -1,0 +1,35 @@
+.widgetsm{
+    flex: 1;
+    box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+    -webkit-box-shadow:0px 0px 15px -10px rgba(0,0,0,0.75);
+}
+.widgetsmTitle{
+    font-size: 22px;
+    font-weight: 600;
+}
+.widgetsmList{
+    list-style: none;
+}
+.widgetsmImage{
+ width: 40px;
+ height: 40px;
+ border-radius: 50%;
+ object-fit: cover;
+}
+.widgetsmUsername{
+    font-weight: 600;
+}
+.widgetsmUserTitle{
+    font-weight: 300;
+}
+.widgetsmButton {
+   border-radius: 10px;
+   padding: 7px 10px;
+   background-color: #eeeef7;
+   color: #555;
+   cursor: pointer;
+}
+.widgetsmIcon{
+    font-size: 16px !important;
+    margin-right: 5px;
+}

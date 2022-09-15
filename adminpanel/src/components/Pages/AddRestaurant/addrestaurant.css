@@ -1,0 +1,31 @@
+.addRestaurant{
+    flex: 4;
+}
+.addRestaurantTitle{
+    font-weight: 600;
+}
+.addRestaurantItem{
+    width: 400px;
+    margin-bottom:10px
+}
+.addRestaurantItem>label{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: rgb(151, 150, 150);
+}
+.addRestaurantItem>input{
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.addRestaurantButton{
+    margin: 55px 10px;
+    width: 200px;
+    border: none;
+    background-color: darkblue;
+    color: #fff;
+    padding: 7px 15px;
+    border-radius: 10px;
+    font-weight: 600;
+}

@@ -1,0 +1,506 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/******************** LOADER COMPONENT ****************************8*/
+.Loader_img {
+  animation: zoom-in-zoom-out 2s ease-out infinite;
+}
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(0.8, 0.8);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(0.8, 0.8);
+  }
+}
+
+/**************************** MAP COMPONENT *******************************/
+
+.location-box {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+select.selected_location {
+  width: 85%;
+  height: 48px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+select,
+option {
+  color: rgb(243, 142, 10);
+}
+.loc_address {
+  color: #f8eeee;
+  font-size: 18px;
+}
+.loc_address span {
+  color: #fff;
+  font-weight: 700;
+}
+.loc_icon {
+  color: #fff;
+}
+
+/************************* LOGIN COMPONENT ************************/
+.login_screen .login_top {
+  max-height: 190px;
+}
+.form_div {
+  margin-top: -135px;
+}
+.login_img {
+  height: 155px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="number"],
+input[type="date"],
+textarea#FormControlTextarea1 {
+  border-radius: 30px;
+  width: 95%;
+}
+input#formBasicEmail::placeholder,
+input#formBasicPassword::placeholder,
+input#formBasicName::placeholder,
+input#formBasicLanguage::placeholder,
+input#formBasicPhone::placeholder,
+textarea#FormControlTextarea1::placeholder,
+input#formBasicNameCard::placeholder,
+input#formBasicCardNumber::placeholder,
+input#formBasicExpire::placeholder,
+input#formBasicCvv::placeholder {
+  color: #87878787;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+button.login_btn.btn.btn-primary {
+  background: rgb(243, 142, 10);
+  border-radius: 30px;
+  font-size: 13px;
+}
+.forgot_password a,
+.create_accnt a {
+  font-size: 14px;
+}
+.forgot_password a {
+  color: #87878787;
+}
+.footer_icon img {
+  max-height: 60px;
+}
+svg.mail_icon,
+svg.pass_icon,
+svg.eye_icon,
+.user_icon,
+.phone_icon,
+.password_icon {
+  color: #a4a7ab;
+  font-size: 25px;
+}
+.create_accnt a:hover {
+  color: rgb(243, 142, 10) !important;
+}
+
+/***************** SIGNUP COMPONENT *************************/
+.signup_screen .signup_top {
+  max-height: 190px;
+}
+.form_sign_div {
+  margin-top: -164px;
+}
+.signup_img {
+  height: 155px;
+}
+.form_sign_div a {
+  color: rgb(243, 142, 10);
+}
+.form_sign_div a:hover {
+  color: rgb(240, 172, 83);
+}
+.allergy_icon {
+  height: 21px;
+  top: 4%;
+}
+
+/* Hide Arrow Icon In Chrome */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Hide Calendar Icon In Chrome */
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
+/************************ SIGNUP NEXT **************************/
+
+li.nav-item a {
+  color: #a4a7ab;
+}
+a.nav-link.active {
+  color: rgb(243, 142, 10);
+}
+form.Signnext_form p.demo_name,
+form.Signnext_form p.demo_number,
+form.Signnext_form p.demo_expiry {
+  font-size: 12px;
+}
+form.Signnext_form p.demo_cvv {
+  font-size: 25px;
+}
+button.signup_btn.btn.btn-primary {
+  background: rgb(243, 142, 10);
+  border-radius: 30px;
+  font-size: 14px;
+}
+input#formBasicNameCard::placeholder,
+input#formBasicCardNumber::placeholder,
+input#formBasicExpire::placeholder,
+input#formBasicCvv::placeholder {
+  color: #a4a7ab;
+  font-size: 14px;
+}
+.card_details p.detail {
+  text-align: center;
+}
+
+/********************** PAYMENT IMAGE SLIDER ***********************/
+
+ul.thumbs.animated {
+  display: none;
+}
+.carousel.carousel-slider .control-arrow {
+  display: none;
+}
+.carousel .carousel-status {
+  display: none;
+}
+.carousel-root.Carousel_slider img {
+  width: 50% !important;
+  height: 270px;
+}
+.carousel .control-dots {
+  bottom: -11px !important;
+  background-color: #fff;
+}
+.carousel .control-dots .dot {
+  width: 10px !important;
+  height: 10px !important;
+}
+.carousel .control-dots .dot.selected,
+.carousel .control-dots .dot:hover {
+  background: rgb(243, 142, 10);
+}
+.slider_image {
+  background-color: #fff;
+}
+/********************** CHECKOUT ***********************/
+
+.header {
+  background-color: rgb(243, 142, 10);
+  border-radius: 0px 0px 20px 20px;
+}
+.header svg {
+  font-size: 25px;
+}
+.header p.checkout {
+  margin: 18px 45%;
+}
+.item_list {
+  margin-top: -18px;
+}
+.option_list {
+  color: #878787;
+}
+input[type="radio"] {
+  height: 17px;
+  width: 25px;
+}
+.option_accordion svg {
+  font-size: 28px;
+  margin-top: -12px;
+}
+.option_accordion svg.arrow_up {
+  margin-right: 220px;
+}
+.options,
+.option {
+  color: #878787;
+}
+.option_accordion {
+  margin-top: -8px;
+}
+.option_accordion .Collapsible {
+  margin-top: -20px;
+}
+.option_accordion .Collapsible__contentInner {
+  margin-top: 19px;
+  margin-left: 19px;
+}
+.delivery_option {
+  margin-top: -20px;
+}
+.order_details p {
+  color: #87878787;
+}
+.order_details span {
+  font-size: 14px;
+}
+.order_details a {
+  color: rgb(243, 142, 10);
+}
+.order_details a:hover {
+  color: rgb(240, 172, 83);
+}
+.total_amount {
+  width: 69%;
+  background-color: #f9fafb;
+  border-radius: 19px 19px 0px 0px;
+  box-shadow: 0px 6px 10px 6px grey;
+  margin: 0px 16%;
+  z-index: 101;
+}
+.total_amount .order_btn {
+  background-color: rgb(243, 142, 10);
+  border-radius: 10px;
+}
+
+/*\\\\\\\\\\\\\ Checkout Confirm Box   \\\\\\\\\\\\\\\\*/
+.swal-overlay {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.swal-modal {
+  background-color: transparent;
+  margin-top: 35%;
+}
+.swal-icon--success__hide-corners {
+  background-color: transparent;
+}
+.swal-icon--success:after,
+.swal-icon--success:before {
+  background: transparent;
+}
+.swal-icon--success__line {
+  background-color: #fff;
+}
+.swal-icon--success {
+  border-color: transparent;
+  background: rgb(243, 142, 10);
+}
+.swal-icon--success__ring {
+  border: none;
+}
+.swal-title {
+  color: #fff;
+  font-size: 20px;
+}
+.swal-text {
+  color: #fff;
+}
+.swal-footer {
+  text-align: center;
+  margin-top: 50%;
+}
+.swal-button {
+  background-color: rgb(243, 142, 10);
+  padding: 12px 100px;
+}
+.swal-button:active {
+  background-color: #fff !important;
+  color: rgb(243, 142, 10);
+  border: none;
+}
+.swal-content {
+  margin-top: 10px;
+}
+.swal-content a {
+  color: rgb(243, 142, 10);
+  text-decoration: none;
+}
+
+/********************** CART ***********************/
+.header p.cart {
+  margin: 18px 45%;
+}
+
+.accordion_image {
+  width: 40px;
+}
+
+.accordion .accordion_content img {
+  width: 100%;
+}
+
+.image_div {
+  width: 100px;
+}
+.Collapsible__contentInner {
+  margin-top: 30px;
+}
+
+.accordion svg.openArrow {
+  float: right;
+}
+.accordion_detail {
+  width: 160px;
+  padding-left: 20px;
+}
+button.checkOut.checkout_btn {
+  width: 66%;
+}
+ /************************* ORDERS COMPONENT ************************/
+/* .left{
+ 
+} */
+.right h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.orderImage {
+  width: 110px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+
+/*//////////////// MEDIA QUERY ///////////////////////////*/
+@media only screen and (max-width: 767px) {
+  /************************* LOGIN COMPONENT ************************/
+
+  .form_div {
+    margin-top: -70px;
+  }
+  .footer_icon img {
+    height: 60px;
+  }
+
+  /**************************** MAP COMPONENT *******************************/
+
+  .location-box {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+  select.selected_location {
+    width: 325px;
+    height: 50px;
+    font-size: 17px;
+  }
+  select,
+  option {
+    color: rgb(243, 142, 10);
+  }
+  .loc_address {
+    font-size: 15px;
+  }
+
+  /***************** SIGNUP COMPONENT *************************/
+  .form_sign_div {
+    margin-top: -80px;
+  }
+  .signup_screen .signup_top {
+    height: 130px;
+  }
+  /* Hide Calendar Icon In Chrome */
+  input[type="date"]::-webkit-inner-spin-button,
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+  }
+
+  /************************ SIGNUP NEXT **************************/
+  input#formBasicNameCard::placeholder,
+  input#formBasicCardNumber::placeholder,
+  input#formBasicExpire::placeholder,
+  input#formBasicCvv::placeholder {
+    font-size: 14px;
+  }
+  .card_details p.detail {
+    text-align: start;
+  }
+  input#formBasicNameCard,
+  input#formBasicCardNumber,
+  input#formBasicExpire,
+  input#formBasicCvv {
+    width: 100%;
+  }
+
+  /********************** PAYMENT IMAGE SLIDER ***********************/
+
+  .carousel-root.Carousel_slider img {
+    width: 100% !important;
+    height: 195px;
+  }
+  .carousel .control-dots {
+    bottom: -14px !important;
+  }
+
+  /************************ CART SCREEN ************************/
+
+  .header p.cart {
+    margin: 20px 132px;
+  }
+  /* button.checkout_btn.btn.btn-primary {
+    background: rgb(243, 142, 10);
+    padding: 12px 120px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 31px;
+    margin-right: 31px;
+  } */
+
+  /******** (ACCORDION)ADD MORE ITEMS **********/
+  .accordion svg.openArrow {
+    margin-left: 315px;
+    font-size: 25px;
+    float: none;
+  }
+  /* .accordion .accordion_content img {
+    height: 85px;
+  } */
+  .accordion_detail p {
+    font-weight: 500;
+  }
+  .accordion p.text_false {
+    color: #a4a7ab;
+  }
+  .Collapsible__contentInner {
+    margin-top: 20px;
+  }
+  button.checkOut.checkout_btn {
+    width: 75%;
+  }
+
+  /******** CHECKOUT *********/
+  .header p.checkout {
+    margin: 20px 100px;
+  }
+  .option_accordion svg.arrow_up {
+    margin-right: 11px;
+  }
+  .total_amount {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+ /******** SCAN *********/
+  .MuiGrid-container {
+    margin-top: 20px;
+  }
+}
+
+
+
+
+

@@ -1,0 +1,56 @@
+.BackImageone {
+  background-image: url(/home/ntf-310/Desktop/sultan-bee/src/images/la-de-kitchen.png);
+  width: 100%;
+  height: calc(100vw / (340 / 133));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.curvTextone {
+  margin-left: 197px;
+
+  margin-bottom: -138px;
+}
+/* .curv {
+    margin-right: 112px;
+    margin-top: -34px;
+  } */
+.curvone {
+  margin-right: 60px;
+  margin-top: -82px;
+  max-width: 32%;
+  width: 100%;
+  position: relative;
+  bottom: 25px;
+  left: -28px;
+}
+
+.curvone img {
+  position: relative;
+  top: 22px;
+  margin-top: 3px;
+  padding-top: 6px;
+}
+
+.suvcurveone {
+  height: 194px;
+
+  overflow: hidden;
+}
+.suvcurveone::before {
+  content: "";
+  display: block;
+  height: 76%;
+  /* top: 0; */
+  width: 18%;
+  position: absolute;
+  left: calc(98% + 15px);
+  background-repeat: no-repeat;
+  background-position: left center;
+  /* background-size: auto; */
+  background-color: #fff;
+}
+svg.rightaerrow {
+  margin: 0;
+}

@@ -1,0 +1,10 @@
+.adminUpdateButton{
+    margin: 20px 22%;
+    width: 200px;
+    border: none;
+    background-color: darkblue;
+    color: #fff;
+    padding: 7px 15px;
+    border-radius: 10px;
+    font-weight: 600;
+}

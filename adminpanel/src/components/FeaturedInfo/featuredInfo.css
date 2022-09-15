@@ -1,0 +1,33 @@
+.featuredItem {
+  flex: 1;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+  -webkit-box-shadow:0px 0px 15px -10px rgba(0,0,0,0.75);
+}
+.featuredTitle{
+    font-size: 20px;
+}
+.featuredMoneyContainer{
+    margin: 10px 0px;
+}
+.featuredMoney{
+    font-size: 30px;
+    font-weight: 600;
+}
+.featuredMoneyRate{
+    margin-left: 20px;
+}
+.featuredIcon{
+    font-size: 14px;
+    margin-left: 5px;
+    color: green;
+    height: 24px;
+}
+.featuredIcon.negative{
+    color: red;
+}
+.featuredSub{
+    font-size: 15px;
+    color: gray;
+}

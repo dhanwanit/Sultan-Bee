@@ -1,0 +1,100 @@
+.hotel_on_map {
+  position: relative;
+  background-image: url("../images/UI-15.png");
+  /* height: 650px; */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+span.dot {
+  height: 25px;
+  width: 25px;
+  background-color: orange;
+  border-radius: 50%;
+  display: inline-block;
+}
+span.small_dot {
+  height: 11px;
+  width: 11px;
+  background: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 7px;
+}
+
+.map_btn_div {
+  bottom: 80px;
+  left: 70%;
+  position: fixed;
+  z-index: 2;
+}
+/* .map_btn_div {
+  bottom: 10%;
+  left: 70%;
+} */
+.map_btn_div button.map_btn.btn.btn-primary {
+  background: #f38e0a;
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-weight: 700;
+}
+.btn-primary {
+  border-color: transparent;
+}
+
+/*//////////////// MEDIA QUERY ///////////////////////////*/
+@media only screen and (max-width: 767px) {
+  /* .hotel_on_map {
+    height: 595px;
+  } */
+  span.dot {
+    height: 20px;
+    width: 20px;
+    background-color: #f38e0a;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0px 0px 5px 2px #f38e0a;
+  }
+  span.small_dot {
+    height: 8px;
+    width: 8px;
+    background: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 6px;
+  }
+  .dot_one {
+    position: absolute;
+    top: 34%;
+    left: 2%;
+  }
+  .dot_two {
+    position: absolute;
+    right: 21px;
+    top: 36%;
+  }
+  .dot_three {
+    position: absolute;
+    top: 28%;
+    left: 50%;
+  }
+  .dot_four {
+    position: absolute;
+    top: 49%;
+    left: 49%;
+  }
+  .dot_five {
+    position: absolute;
+    bottom: 33%;
+    left: 86%;
+  }
+  .dot_six {
+    position: absolute;
+    bottom: 27%;
+    left: 50%;
+  }
+  .dot_seven {
+    position: absolute;
+    bottom: 36%;
+    left: 10%;
+  }
+}

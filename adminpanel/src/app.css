@@ -1,0 +1,10 @@
+.orderScreen {
+  flex: 4;
+}
+.orderScreenTItle{
+    font-weight: 600;
+}
+.orderScreen thead {
+  background: #00148b;
+  color: #fff;
+}

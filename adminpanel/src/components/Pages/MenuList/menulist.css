@@ -1,0 +1,23 @@
+.menuList{
+    flex: 4;
+}
+.menuListTitle{
+    font-weight: 600;
+}
+.menuListButton{
+    width: 100px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+}
+.category_image_div{
+    width: 60px;
+}
+.category_image{
+    width: 100%;
+    height: 50px;
+}
